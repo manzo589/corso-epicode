@@ -1,0 +1,5 @@
+colore = ("rosso", "giallo", "nero", "rosso", "verde", "blu")
+print(colore[0])
+print(colore[-1])
+cont = input(str("inserisci il nome del colore da contare: "))
+print("Il colore", cont, "compare", colore.count(cont), "volte")
